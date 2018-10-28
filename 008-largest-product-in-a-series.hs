@@ -5,7 +5,7 @@ main = do
   putStrLn $ show $ solution
 
 solution :: Int
-solution = seriesProduct 13 (map digitToInt series)
+solution = seriesProduct 13 $ map digitToInt series
 
 seriesProduct :: Int -> [Int] -> Int
 seriesProduct _ []     = 0
